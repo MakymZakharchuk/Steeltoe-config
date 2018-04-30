@@ -1,0 +1,6 @@
+fortuneService:
+  scheme: https
+  address: fortuneservice-forgiving-warthog.cfapps.io
+  randomFortunePath: api/fortunes/random
+  allFortunesPath: api/fortunes/all
+
