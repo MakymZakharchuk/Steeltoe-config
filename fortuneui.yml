@@ -1,3 +1,6 @@
+eureka:
+  client:
+    shouldRegisterWithEureka: false
 fortuneService:
   scheme: https
   address: fortuneservice-forgiving-warthog.cfapps.io
