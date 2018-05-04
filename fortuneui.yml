@@ -1,13 +1,7 @@
-eureka:
-  client:
-    shouldRegisterWithEureka: false
 hystrix:
     stream:
         validate_certificates:false   
-security:
-    oauth2:
-        client:
-            validateCertificates:false
+
 fortuneService:
   scheme: https
   address: fortuneservice-forgiving-warthog.cfapps.io

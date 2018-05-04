@@ -6,3 +6,10 @@ Logging:
   Console:
     LogLevel: 
       Default: Information
+eureka:
+  client:
+    shouldRegisterWithEureka: false
+security:
+  oauth2:
+    client:
+      validate_certificates: false
