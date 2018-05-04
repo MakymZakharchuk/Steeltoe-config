@@ -1,13 +1,13 @@
+
 hystrix:
-    stream:
-        validate_certificates:false   
+  stream:
+    validate_certificates: false
  security:
   oauth2:
     client:
       validate_certificates: false   
 fortuneService:
   scheme: https
-  address: fortuneservice-forgiving-warthog.cfapps.io
+  address: fortuneservice
   randomFortunePath: api/fortunes/random
   allFortunesPath: api/fortunes/all
-
